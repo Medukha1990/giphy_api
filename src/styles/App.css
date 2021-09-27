@@ -1,0 +1,36 @@
+.App {
+    text-align: center;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.form-inline {
+    display: flex;
+}
+
+.navbar {
+    display: block;
+}
+
+.my-masonry-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    padding-top: 70px;
+}
+
+.my-masonry-grid_column {
+    margin-right: 10px;
+    background-clip: padding-box;
+}
+
+.my-masonry-grid_column > a {
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+.btnShowMore {
+    margin-top: 30px !important;
+}
