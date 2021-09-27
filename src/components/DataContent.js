@@ -1,4 +1,5 @@
 import Masonry from 'react-masonry-css';
+import PropTypes from 'prop-types'
 
 const DataContent = ({ data }) => {
 
@@ -26,5 +27,13 @@ const DataContent = ({ data }) => {
       </div>
     );
 };
+
+DataContent.propTypes = {
+    data: PropTypes.object
+}
+
+DataContent.defaultProps = {
+    data: {}
+}
 
 export default DataContent;
